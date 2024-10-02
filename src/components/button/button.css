@@ -46,3 +46,8 @@ a.button-primary:hover {
 	color: #090909;
 	background-color: white;
 }
+
+.service.right a.button-primary:hover {
+	color: white;
+	background-color: black;
+}
