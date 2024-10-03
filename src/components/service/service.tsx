@@ -4,14 +4,14 @@ import "./service.css";
 type ServiceProps = {
 	image: image;
 	title: string;
-	servicesAside: servicesAside;
+	aside: aside;
 	right?: boolean;
 };
 
 export default function Service({
 	image,
 	title,
-	servicesAside,
+	aside,
 	right = false,
 }: ServiceProps) {
 	return (
@@ -22,7 +22,7 @@ export default function Service({
 			<div className="content-text">
 				<div className="text-rows">
 					<h3 className="heading3">{title}</h3>
-					{servicesAside.map((sa: any) => {
+					{aside.map((sa: any) => {
 						return (
 							<div className="text-description">
 								<h4 className="heading4">{sa.subtitle}</h4>

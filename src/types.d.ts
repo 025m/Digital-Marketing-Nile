@@ -3,7 +3,7 @@ type image = {
   alt: string,
 }
 
-type servicesAside = {
+type aside = {
   subtitle: string,
   description: string,
 }[]

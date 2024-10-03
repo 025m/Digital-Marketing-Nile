@@ -5,7 +5,7 @@ const services = [
 			alt: "Blue beanie on a laptop",
 		},
 		title: "paid traffic",
-		servicesAside: [
+		aside: [
 			{
 				subtitle: "Targeted Campaigns",
 				description:
@@ -24,7 +24,7 @@ const services = [
 			alt: "Drawing on a laptop",
 		},
 		title: "graphic design & branding",
-		servicesAside: [
+		aside: [
 			{
 				subtitle: "Visual Excellence",
 				description:
@@ -43,7 +43,7 @@ const services = [
 			alt: "Blue beanie drawing on a laptop",
 		},
 		title: "content marketing strategy",
-		servicesAside: [
+		aside: [
 			{
 				subtitle: "Strategic Storytelling",
 				description:
