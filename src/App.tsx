@@ -4,6 +4,7 @@ import Services from "./components/services/services.tsx";
 import Benefits from "./components/benefits/benefits.tsx";
 import CaseStudy from "./components/case-study/case-study.tsx";
 import caseStudies from "./components/case-study/case-studies.ts";
+import Testimonials from "./components/testimonials/testimonials.tsx";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
       {caseStudies.map((caseStudy:any, index) => (
         <CaseStudy {...caseStudy} right={index % 2 === 1}/>
       ))}
+      <Testimonials />
 		</>
 	);
 }

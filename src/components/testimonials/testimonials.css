@@ -1,0 +1,80 @@
+.testimonials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding-block: 80px;
+}
+
+.testimonials-container {
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-inline: 20px;
+  gap: 30px;
+}
+
+.testimonials-container h2.heading2 {
+	max-width: 700px;
+}
+
+.testimonials-container .testimonials-blocks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 60px;
+	padding-top: 30px;
+	border-top: solid 1px #3a3a3a;
+}
+
+.testimonials-blocks .block {
+	display: flex;
+  flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 24px;
+}
+
+.testimonials-blocks .block .rows {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 15px;
+}
+
+.testimonials-blocks .block .person {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 15px;
+}
+
+.testimonials-blocks .block .person .person-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  gap: 2px;
+}
+
+.testimonials-blocks .block .person .person-details h4{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  color: white;
+}
+
+.testimonials-blocks .block .person .person-details p{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
