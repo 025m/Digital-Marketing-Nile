@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+}
+
+.heading2 {
+  font-family: Inter;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 55px;
+  letter-spacing: 0em;
+  line-height: 1em;
+}
+
+.heading3 {
+	font-family: Inter;
+	font-weight: 600;
+	color: white;
+	text-transform: uppercase;
+	font-size: 35px;
+	letter-spacing: 0em;
+	line-height: 1.2;
+}
+
+.p2 {
+	font-family: Poppins;
+	font-weight: 400;
+	color: #e0e0e0;
+	font-size: 16px;
+	letter-spacing: 0em;
+	line-height: 1.5;
+}
+
+.heading4 {
+	font-family: Poppins;
+	font-weight: 600;
+	color: white;
+	font-size: 22px;
+	letter-spacing: 0em;
+	line-height: 1.2;
+}

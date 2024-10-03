@@ -1,0 +1,31 @@
+.benefits {
+	padding-block: 80px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.benefits .benefits-container h2 {
+	max-width: 700px;
+}
+
+.benefits .benefits-container .benefit-card {
+	text-align: center;
+}
+
+.benefits-container {
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	padding-inline: 20px;
+}
+
+.benefit-cards {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 60px;
+}
