@@ -1,0 +1,120 @@
+.plus-container {
+	position: relative;
+	width: 16px;
+	height: 16px;
+	transition: transform 0.3s ease;
+}
+
+.plus-horizontal,
+.plus-vertical {
+	position: absolute;
+	background-color: white;
+	transition: all 0.3s ease;
+}
+
+.plus-horizontal {
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	transform: translateY(-50%);
+}
+
+.plus-vertical {
+	left: 50%;
+	top: 0;
+	width: 2px;
+	height: 100%;
+	transform: translateX(-50%);
+}
+
+.plus-container.rotated * {
+	background-color: black;
+}
+
+.plus-container.rotated .plus-horizontal {
+	transform: translateY(-50%) rotate(45deg);
+}
+.plus-container.rotated .plus-vertical {
+	transform: translateX(-50%) rotate(45deg);
+}
+
+.closed {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-color: #141414;
+	border: 1px solid #2a2a2a;
+	border-radius: 15px;
+}
+
+.opened {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: white;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.closed .question {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 20px 20px 24px;
+	gap: 24px;
+}
+
+.question p {
+	font-family: Poppins;
+	font-weight: 600;
+	color: white;
+	font-size: 18px;
+	letter-spacing: 0px;
+	line-height: 1.5;
+	text-align: left;
+}
+
+.answer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 10px;
+	padding: 0 20px 20px 24px;
+	background-color: white;
+}
+
+.opened .question {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 20px 20px 24px;
+	gap: 24px;
+}
+
+.opened .question p {
+	color: black;
+}
+
+.opened .answer {
+  width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 0px 20px 20px 24px;
+	gap: 10px;
+}
+.accordion {
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	gap: 10px;
+}

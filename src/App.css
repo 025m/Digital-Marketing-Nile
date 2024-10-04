@@ -23,6 +23,15 @@ body {
 	line-height: 1.2;
 }
 
+p {
+	font-family: Poppins;
+	font-weight: 400;
+	color: #333333;
+	font-size: 16px;
+	letter-spacing: 0em;
+	line-height: 1.6;
+}
+
 .p2 {
 	font-family: Poppins;
 	font-weight: 400;
