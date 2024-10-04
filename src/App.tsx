@@ -7,6 +7,7 @@ import caseStudies from "./components/case-study/case-studies.ts";
 import Testimonials from "./components/testimonials/testimonials.tsx";
 import BookACall from "./components/book-a-call/book-a-call.tsx";
 import Faq from "./components/faq/faq.tsx";
+import Footer from "./components/footer/footer.tsx";
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
       <Testimonials />
 			<BookACall />
 			<Faq />
+			<Footer />
 		</>
 	);
 }
