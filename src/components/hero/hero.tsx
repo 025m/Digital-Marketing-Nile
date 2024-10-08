@@ -8,7 +8,7 @@ export default function Hero() {
 			<div className="background">
 			<div className="container">
 				<Navigation />
-        {/* <HeroContent /> */}
+        <HeroContent />
 			</div>
 			</div>
 		</div>

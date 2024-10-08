@@ -13,7 +13,7 @@ function App() {
 	return (
 		<>
 			<Hero />
-			{/* <Services />
+			<Services />
       <Benefits />
       {caseStudies.map((caseStudy:any, index) => (
         <CaseStudy {...caseStudy} right={index % 2 === 1}/>
@@ -21,7 +21,7 @@ function App() {
       <Testimonials />
 			<BookACall />
 			<Faq />
-			<Footer /> */}
+			<Footer />
 		</>
 	);
 }
