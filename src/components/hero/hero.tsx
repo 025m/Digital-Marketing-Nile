@@ -4,10 +4,12 @@ import HeroContent from "../hero-content/hero-content";
 
 export default function Hero() {
 	return (
-		<div className="hero background">
+		<div className="hero">
+			<div className="background">
 			<div className="container">
 				<Navigation />
-        <HeroContent />
+        {/* <HeroContent /> */}
+			</div>
 			</div>
 		</div>
 	);

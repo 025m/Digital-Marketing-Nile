@@ -1,5 +1,6 @@
 .navigation {
-	width: 1200px;
+	flex: 1;
+	max-width: 1200px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -27,4 +28,119 @@
 
 .navigation + hr {
 	color: rgba(255, 255, 255, 8%);
+}
+
+.hamburger {
+	display: none;
+	/* outline: 1px solid pink; */
+	width: 44px;
+	height: 44px;
+	position: relative;
+	/* background-color: hotpink; */
+	cursor: pointer;
+}
+
+.hamburger .bar {
+	background-color: #999999;
+	width: 22px;
+	height: 2px;
+	border-radius: 10px;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -25%);
+	transition: all 0.3s ease;
+}
+
+.hamburger .bar + .bar {
+	position: absolute;
+	top: 75%;
+}
+
+@media (width <= 1199px) {
+	.navigation .links {
+		display: none;
+	}
+
+	.navigation a.button-primary,
+	.navigation .button-primary > * {
+		display: none;
+	}
+
+	.navigation .top {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px;
+	}
+
+	.navigation.open .links {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		padding: 20px;
+	}
+
+	.navigation.open .links a {
+		white-space: pre;
+		font-weight: 600;
+		font-style: normal;
+		font-family: "Poppins", sans-serif;
+		color: #ffffff;
+		font-size: 24px;
+		letter-spacing: 0em;
+		line-height: 1.5;
+		padding: 0;
+	}
+
+	.navigation .hamburger {
+		display: inline-block;
+	}
+
+	.navigation.open {
+		padding-bottom: 20px;
+		border-radius: 15px;
+		background-color: #252525;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.navigation.open .top {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 20px 10px 20px;
+	}
+
+	.navigation.open .hamburger .bar {
+		height: 3px;
+		background-color: white;
+	}
+
+	.navigation.open .hamburger:hover .bar {
+		height: 3px;
+		background-color: #b4e925;
+	}
+
+	.navigation.open .hamburger .bar:first-child {
+		transform: rotate(45deg);
+		top: 50%;
+	}
+	.navigation.open .hamburger .bar:nth-child(2) {
+		transform: rotate(-45deg);
+		top: 50%;
+	}
+
+	.navigation.open a.button-primary,
+	.navigation.open .button-primary > * {
+		display: flex;
+	}
+
+	.navigation.open .links a:hover {
+		color: #b4e925;
+	}
 }
