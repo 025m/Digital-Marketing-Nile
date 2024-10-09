@@ -4,7 +4,7 @@ import "./faq.css";
 
 export default function Faq() {
 	return (
-		<div className="faq">
+		<div id="faq" className="faq">
 			<div className="container">
         <div className="pre-heading">
           <p>faq</p>

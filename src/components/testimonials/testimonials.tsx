@@ -4,7 +4,7 @@ import stars from "../../assets/starts.svg";
 
 export default function Testimonials() {
 	return (
-		<div className="testimonials">
+		<div id="testimonials" className="testimonials">
 			<div className="testimonials-container">
 				<div className="pre-heading">
 					<p>testimonials</p>

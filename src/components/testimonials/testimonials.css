@@ -87,3 +87,18 @@
 	line-height: 1.5;
 	color: #e0e0e0;
 }
+
+@media (max-width: 1199px) {
+	.testimonials-blocks {
+		flex-direction: column;
+	}
+	.testimonials-blocks .block{
+		width: 100%;
+		align-items: center;
+	}
+
+	.testimonials-blocks .block .rows {
+		align-items: center;
+		text-align: center;
+	}
+}

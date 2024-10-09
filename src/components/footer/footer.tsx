@@ -43,9 +43,9 @@ export default function Footer() {
 						<p className="p2">Build a powerful agency site with Framer.</p>
 					</div>
 					<div className="links">
-						<a href="#">Services</a>
-						<a href="#">Case Studies</a>
-						<a href="#">Testimonials</a>
+						<a href="#services">Services</a>
+						<a href="#case-studies">Case Studies</a>
+						<a href="#testimonials">Testimonials</a>
 					</div>
 				</div>
 				<div className="copyright-wrapper">
