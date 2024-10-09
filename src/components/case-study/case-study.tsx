@@ -16,8 +16,8 @@ export default function CaseStudy({
 }: CaseStudyProps) {
 	return (
 		<div className="case-study">
-			<div className={`case-study-container ${right && "right"}`}>
-				<div className={`image-wrapper ${right && "right"}`}>
+			<div className={`case-study-container ${right ? "right" : ""}`}>
+				<div className={`image-wrapper ${right ? "right" : ""}`}>
 					<img src={image.src} alt={image.alt} />
 				</div>
 				<div className="case-study-content">

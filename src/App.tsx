@@ -14,11 +14,13 @@ function App() {
 		<>
 			<Hero />
 			<Services />
-      <Benefits />
-      {caseStudies.map((caseStudy:any, index) => (
-        <CaseStudy {...caseStudy} right={index % 2 === 1}/>
-      ))}
-      <Testimonials />
+			<Benefits />
+			<section id="case-studies">
+				{caseStudies.map((caseStudy: any, index) => (
+					<CaseStudy {...caseStudy} right={index % 2 === 1} />
+				))}
+			</section>
+			<Testimonials />
 			<BookACall />
 			<Faq />
 			<Footer />

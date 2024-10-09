@@ -5,12 +5,12 @@ import waves from "../../assets/waves.svg"
 
 export default function Benefits() {
 	return (
-		<div className="benefits">
+		<div id="benefits" className="benefits">
 			<div className="benefits-container">
 				<div className="pre-heading">
 					<p>benefits</p>
 				</div>
-				<h2 className="heading2">unlock your success</h2>
+				<h2>unlock your success</h2>
 				<div className="benefit-cards">
 					<div className="benefit-card">
 						<img src={ss} alt="icon" width="40px" />

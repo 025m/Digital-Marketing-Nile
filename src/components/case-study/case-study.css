@@ -36,7 +36,7 @@
 	border-radius: 15px;
 	border: 1px solid #2a2a2a;
 	flex: 1;
-  overflow: hidden;
+	overflow: hidden;
 }
 
 .case-study .case-study-container .image-wrapper.right {
@@ -48,7 +48,12 @@
 }
 
 .case-study .case-study-container .image-wrapper img {
+	width: 100%;
+	display: block;
 	overflow: hidden;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .case-study-content {
@@ -85,4 +90,26 @@
 	justify-content: center;
 	align-content: center;
 	gap: 30px;
+}
+
+@media (max-width: 1199px) {
+	.case-study-container {
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	.image-wrapper {
+		width: 100%;
+		min-height: 797.25px;
+	}
+
+	.case-study-content-text .heading {
+		align-self: flex-start;
+	}
+}
+
+@media (max-width: 809px) {
+	.image-wrapper {
+		min-height: 362.383px;
+	}
 }

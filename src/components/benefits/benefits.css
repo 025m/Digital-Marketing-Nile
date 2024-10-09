@@ -29,3 +29,9 @@
   align-content: center;
   gap: 60px;
 }
+
+@media (max-width: 1199px) {
+	.benefit-cards {
+		flex-direction: column;
+	}
+}
