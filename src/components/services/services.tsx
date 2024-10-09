@@ -9,9 +9,7 @@ export default function Services() {
 				<div className="pre-heading">
 					<p>services</p>
 				</div>
-				<h2 className="heading2">
-					services designed to grow your business
-				</h2>
+				<h2>services designed to grow your business</h2>
 				{services.map((service: any, index) => (
 					<Service {...service} right={index % 2 === 1} />
 				))}

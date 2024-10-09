@@ -1,13 +1,13 @@
 .service.right .heading3 {
-  color: black;
+	color: black;
 }
 
 .service.right .heading4 {
-  color: black;
+	color: black;
 }
 
 .service.right .p2 {
-  color: #5E5E5E;
+	color: #5e5e5e;
 }
 
 .text-description {
@@ -38,14 +38,14 @@
 .service .content-image {
 	height: 520px;
 	border-radius: 5px;
-  justify-content: center;
-  overflow: hidden;
+	justify-content: center;
+	overflow: hidden;
 }
 
 .service .content-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .service {
@@ -60,11 +60,43 @@
 }
 
 .service.right {
-  flex-direction: row-reverse;
-  background-color: white;
+	flex-direction: row-reverse;
+	background-color: white;
 }
 
 .service .content-image,
 .service .content-text {
-    flex: 1; 
+	flex: 1;
+}
+
+@media (max-width: 1199px) {
+	.service,
+	.service.right {
+		gap: 40px;
+		flex-direction: column;
+	}
+
+	.service .content-image,
+	.service .content-image {
+		height: 744.317px;
+		width: 100%;
+	}
+
+	.service.right .content-text,
+	.service .content-text {
+		padding: 0px 20px 40px 20px;
+	}
+}
+
+@media (max-width: 809px) {
+	.service.right .content-image,
+	.service .content-image {
+		height: 336.467px;
+		width: 100%;
+	}
+
+	.service.right .content-text,
+	.service .content-text {
+		padding-bottom: 20px;
+	}
 }

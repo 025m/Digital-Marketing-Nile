@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+	background-color: black;
 }
 
 h1 {
@@ -11,9 +11,24 @@ h1 {
 	line-height: 1;
 }
 
+h2 {
+	font-family: Inter;
+	font-weight: 600;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 55px;
+	letter-spacing: 0em;
+	line-height: 1em;
+}
+
 @media (max-width: 1119px) {
 	h1 {
 		font-size: 64px;
+	}
+
+	h2 {
+		font-size: 44px;
 	}
 }
 
@@ -21,17 +36,9 @@ h1 {
 	h1 {
 		font-size: 44px;
 	}
-}
-
-.heading2 {
-  font-family: Inter;
-  font-weight: 600;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 55px;
-  letter-spacing: 0em;
-  line-height: 1em;
+	h2 {
+		font-size: 35px;
+	}
 }
 
 .heading3 {

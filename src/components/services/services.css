@@ -21,3 +21,9 @@ section#services.services .services-container {
 section#services.services h2 {
   max-width: 700px;
 }
+
+@media (max-width: 809px) {
+  section#services.services {
+    padding-top: 80px
+  }
+}
