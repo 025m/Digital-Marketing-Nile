@@ -12,7 +12,7 @@ import Footer from "./components/footer/footer.tsx";
 function App() {
 	return (
 		<>
-			{/* <Hero />
+			<Hero />
 			<Services />
 			<Benefits />
 			<section id="case-studies">
@@ -21,9 +21,9 @@ function App() {
 				))}
 			</section>
 			<Testimonials />
-			<BookACall /> */}
+			<BookACall />
 			<Faq />
-			{/* <Footer /> */}
+			<Footer />
 		</>
 	);
 }
